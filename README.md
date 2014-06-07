@@ -8,8 +8,8 @@ Put them in the .env file with the following keys:
 `TWITTER_OAUTH_SECRET`  
 
 The first time you run you'll need to:
-`rbenv rehash`
-`bundle install`
+`rbenv rehash`  
+`bundle install`  
 
 After that, to run the script, use it like so:
 `bundle exec foreman run ruby app.rb bomb every word --tweet`
