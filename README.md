@@ -2,10 +2,10 @@ You'll need a .env file with the oauth variables necessary for a Twitter read/wr
 Go set up an application on dev.twitter.com, give it write access, then generate oauth keys for yourself.
 Put them in the .env file with the following keys:
 
-TWITTER_CONSUMER_KEY
-TWITTER_CONSUMER_SECRET
-TWITTER_OAUTH_TOKEN
-TWITTER_OAUTH_SECRET
+`TWITTER_CONSUMER_KEY`  
+`TWITTER_CONSUMER_SECRET`  
+`TWITTER_OAUTH_TOKEN`  
+`TWITTER_OAUTH_SECRET`  
 
 The first time you run you'll need to:
 `rbenv rehash`
